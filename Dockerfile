@@ -13,7 +13,7 @@ RUN apk add --update --no-cache python pkgconfig make g++ git
 
 # Clone the source repo
 RUN mkdir master_temp
-RUN git clone https://github.com/petkov/http_to_mqtt.git master_temp
+RUN git clone https://github.com/slekhano/http_to_mqtt.git master_temp
 RUN cp -R -f master_temp/* .
 RUN rm -rf master_temp
 
